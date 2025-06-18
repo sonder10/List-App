@@ -3,9 +3,9 @@
 	--business: #3A82EE;
 	--personal: var(--primary);
 	--light: #EEE;
-	--grey: #888;
-	--dark: #313154;
-	--danger: #ff5b57;
+	--grey: #b4b2b2;
+	--dark: #4343a5;
+	--danger: #db120e;
 
 	--shadow: 0 1px 3px rgba(0, 0, 0, 0.1);
 
@@ -29,8 +29,8 @@ input:not([type="radio"]):not([type="checkbox"]), button {
 }
 
 body {
-	background: var(--light);
-	color: var(--dark);
+	background: var(--dark);
+	color: var(--light);
 }
 
 section {
@@ -41,7 +41,7 @@ section {
 }
 
 h3 {
-	color: var(--dark);
+	color: var(--light);
 	font-size: 1rem;
 	font-weight: 400;
 	margin-bottom: 0.5rem;
@@ -66,7 +66,7 @@ h4 {
 
 .greeting .title,
 .greeting .title input {
-	color: var(--dark);
+	color: var(--light);
 	font-size: 1.5rem;
 	font-weight: 700;
 }
